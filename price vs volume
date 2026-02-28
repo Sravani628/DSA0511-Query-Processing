@@ -1,0 +1,5 @@
+plt.scatter(prices, volume)
+plt.xlabel("Stock Price")
+plt.ylabel("Volume")
+plt.title("Price vs Volume")
+plt.show()
