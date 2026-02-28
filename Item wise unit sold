@@ -1,0 +1,12 @@
+sales_data = {
+    "Item":["TV","TV","Phone","TV"],
+    "Units":[95,36,27,56]
+}
+
+df = pd.DataFrame(sales_data)
+
+pivot = pd.pivot_table(df, values="Units",
+                       index="Item",
+                       aggfunc="sum")
+
+print(pivot)
