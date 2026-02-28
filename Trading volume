@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+volume = [2000,2500,1800,3000,2200]
+
+plt.bar(dates, volume)
+plt.xlabel("Date")
+plt.ylabel("Volume")
+plt.title("Trading Volume")
+plt.show()
