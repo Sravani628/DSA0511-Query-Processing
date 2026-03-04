@@ -1,0 +1,6 @@
+import pandas as pd
+
+data = {'Name':['James','John','Robert','Michael']}
+df = pd.DataFrame(data)
+
+print(df['Name'].str.find('o'))
